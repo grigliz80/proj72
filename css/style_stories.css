@@ -1,0 +1,151 @@
+body {
+    background-image: url("../img/back_main.jpg");
+    color: #ded;
+}
+
+h1 {
+    letter-spacing: 0.05;
+    font-family: Sredniy;
+    font-size: 2.2em;
+    color: orange;
+}
+
+.hed {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.mini-sider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mini-sider button {
+    border: none;
+    background-color: orange;
+    font-family: Sredniy;
+    font-size: 1.1em;
+    color: white;
+    width: 100%;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.mini-sider button:hover {
+    background-color: orangered;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    flex: 2;
+}
+
+article h4 {
+    font-family: Tonkiy;
+    color: orangered;
+}
+
+article h2,
+aside h2 {
+    font-family: Sd;
+    font-size: 2.1em;
+    color: teal;
+}
+
+article p,
+aside p {
+    font-family: Sd;
+    font-size: 1.2em;
+}
+
+aside {
+    flex: 1;
+}
+
+aside img {
+    width: 100%;
+}
+
+aside ul {
+    list-style: outside none;
+}
+
+aside ul li a {
+    font-family: Tonkiy;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: teal;
+}
+
+aside ul li a:hover {
+    color: orangered;
+}
+
+.art {
+    padding-right: 50px;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main table {
+    /* border-collapse: collapse; */
+    font-family: Tonkiy;
+    border: 1px solid;
+}
+
+main table tr:nth-child(4) {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+main table th {
+    font-family: Sredniy;
+    padding: 8px;
+}
+
+main table td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+.budn {
+    color: greenyellow;
+}
+
+.vihod {
+    color: orangered;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 8px solid rgb(104, 129, 66);
+    border-top: 8px solid greenyellow;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}

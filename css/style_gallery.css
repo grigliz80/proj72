@@ -1,0 +1,81 @@
+body {
+    background-image: url("../img/back_main.jpg");
+    color: #ded;
+}
+
+h1 {
+    letter-spacing: 0.05;
+    font-family: Sredniy;
+    font-size: 2.2em;
+    color: orange;
+}
+
+.hed {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.cont1 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.photo-name {
+    margin: 0 0 -60px -500px;
+    font-family: Sd;
+    font-size: 2.3em;
+    text-shadow: 2px 2px 1px black;
+    z-index: 0;
+}
+
+.screen {
+    background-color: rgba(221, 238, 221, 0.05);
+}
+
+.screen img {
+    width: 65%;
+    margin: auto;
+    display: block;
+}
+
+.rad-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+
+.rad-nav label {
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.rad-nav label span {
+    transition: all 0.1s;
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(150, 150, 150, 0.3);
+}
+
+.rad-nav label span:hover {
+    background-color: #ded;
+}
+
+.rad-nav label span:active {
+    background-color: rgba(255, 166, 0, 0.486);
+}
+
+.rad-nav input[type="radio"] {
+    display: none;
+}
+
+.rad-nav input[type="radio"]:checked + label span {
+	background-color: orange;
+}

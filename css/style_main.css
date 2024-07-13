@@ -1,0 +1,74 @@
+body {
+    background-image: url("../img/back_main.jpg");
+}
+
+.hed {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.head-wellcome {
+    letter-spacing: 0.05em;
+    font-size: 2.2em;
+    font-family: Sredniy;
+    color: orange;
+}
+
+.head-article {
+    font-family: Tolstiy;
+    color: teal;
+}
+
+nav {
+    width: 50%;
+}
+
+nav a {
+    padding: 1.3em;
+    font-family: Sredniy;
+    text-decoration: none;
+    border: 1px solid rgba(100, 100, 100, 0.01);
+    color: #ded;
+    cursor: pointer;
+}
+
+nav a:hover {
+    border: 1px solid;
+    color: orange;
+}
+
+.row {
+    padding: 20px;
+    display: flex; 
+}
+
+.container {
+    flex: 1;
+    padding: 15px;
+}
+
+.container p {
+    color: #ded;
+    font-family: Tonkiy;
+    font-size: 1.2em;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container button {
+    border: none;
+    background-color: orange;
+    font-family: Sredniy;
+    font-size: 1.1em;
+    color: white;
+    width: 100%;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: orangered;
+}

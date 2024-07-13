@@ -1,0 +1,32 @@
+/*Roboto*/
+@font-face {
+    font-family: Norm;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Tonkiy;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Tolstiy;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Sredniy;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf") format('truetype');
+}
+
+/*RubikMaps-Regular*/
+@font-face {
+    font-family: Rubik;
+    src: url("../fonts/Rubik_Maps/RubikMaps-Regular.ttf") format('truetype');
+}
+
+/*SingleDay*/
+@font-face {
+    font-family: Sd;
+    src: url("../fonts/Single_Day/SingleDay-Regular.ttf") format('truetype');
+}

@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style_about.css">
+    <title>proj72 About</title>
+</head>
+
+<body>
+    <div class="hed">
+        <h1>About Page</h1>
+        <div>
+            <p id="gUname" class="greeting"></p>
+            <p id="gEmail" class="greeting"></p>
+        </div>
+        <div class="side-form">
+            <a href="../index.html">Back Home</a>
+            <form onsubmit=" event.preventDefault(); showUser()">
+                <label for="uname">User</label>
+                <input type="text" id="uname">
+                <label for="em">Email</label>
+                <input type="email" id="em">
+                <input type="submit" name="Sub" value="Login">
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div class="cont1">
+        <div class="row">
+            <div class="col">
+                <h2>Contribution ...</h2>
+                <p>As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network
+                    applications. In the following "hello world" example, many connections can be handled concurrently.
+                    Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.
+                </p>
+                <video width="100%" height="300" controls>
+                    <source src="../media/video/VID_20230831_124751.mp4" type="video/mp4">Video not supported
+                </video>
+            </div>
+            <div class="col">
+                <div class="audio-block">
+                    <h3>Main Audio</h3>
+                    <p>This is in contrast to today's more common concurrency model, in which OS threads are employed.
+                    </p>
+                    <audio controls title="Main Audio">
+                        <source src="../media/audio/Contribution/ContributionMainAudio.mp3" type="audio/mpeg">Audio not
+                        supported
+                    </audio>
+                </div>
+                <div class="audio-block">
+                    <h3>Commentary</h3>
+                    <p>But if there is no work to be done, Node.js will sleep. Threads are employed.
+                    </p>
+                    <audio controls title="Commentary">
+                        <source src="../media/audio/Contribution/ContributionCommentary.mp3" type="audio/mpeg">Audio not
+                        supported
+                    </audio>
+                </div>
+                <div class="audio-block">
+                    <h3>Mini Story</h3>
+                    <p>Facebook has created a handy tool called Create React App that React project with just a simple command!
+                    </p>
+                    <audio controls title="Mini Story">
+                        <source src="../media/audio/Contribution/ContributionMS.mp3" type="audio/mpeg">Audio not
+                        supported
+                    </audio>
+                </div>
+                <div class="audio-block">
+                    <h3>Points Of View</h3>
+                    <p>In the previous lesson we learned how to add React to a simple HTML document using the script tags.
+                    </p>
+                    <audio controls title="Points Of View">
+                        <source src="../media/audio/Contribution/ContributionPOV.mp3" type="audio/mpeg">Audio not
+                        supported
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
